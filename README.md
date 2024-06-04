@@ -37,7 +37,7 @@ ASTRA_DB_SECURE_BUNDLE_PATH=/path/to/secure-connect-bundle.zip ASTRA_DB_APPLICAT
 ```
 Here's the same script, and the output returned by it:
 ```bash
-$ ASTRA_DB_SECURE_BUNDLE_PATH=/home/nobody/astra-creds/secure-connect-theseus.zip ASTRA_DB_APPLICATION_TOKEN="AstraCS:..." python connect-test-token.py --debug
+$ ASTRA_DB_SECURE_BUNDLE_PATH=/home/nobody/astra-creds/secure-connect-theseus.zip ASTRA_DB_APPLICATION_TOKEN="AstraCS:abcd:efghijklmnop" python hermes.py --debug
 2024-06-02 00:08:19 UTC Tests Start
 2024-06-02 00:08:22 UTC Printing report:
 ==========
