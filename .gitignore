@@ -162,7 +162,7 @@ cython_debug/
 #.idea/
 
 # My gitignores
-.txt
+test.txt
 .crt
 .jks
 .json
