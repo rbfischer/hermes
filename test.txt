@@ -1,0 +1,60 @@
+Astra Connection Test Report
+2024-06-04 00:19:55 UTC
+----------
+==========
+DNS Test:
+Resolved 9 IP addresses for a167b2b3-a70b-44bd-91cc-cf07a8b1fbd6-us-west-2.db.astra.datastax.com
+====
+52.11.79.207
+44.226.38.103
+35.166.202.200
+35.161.87.148
+35.81.201.30
+44.230.66.97
+44.231.196.220
+52.88.122.199
+44.237.250.38
+====
+No PrivateLink detected
+==========
+Port Connectivity Test:
+====
+Connection to 44.226.38.103 on port 29080 successful
+Connection to 44.226.38.103 on port 29042 successful
+Connection to 52.11.79.207 on port 29080 successful
+Connection to 52.11.79.207 on port 29042 successful
+Connection to 35.166.202.200 on port 29042 successful
+Connection to 35.166.202.200 on port 29080 successful
+Connection to 35.161.87.148 on port 29080 successful
+Connection to 35.161.87.148 on port 29042 successful
+Connection to 44.230.66.97 on port 29042 successful
+Connection to 44.230.66.97 on port 29080 successful
+Connection to 52.88.122.199 on port 29042 successful
+Connection to 52.88.122.199 on port 29080 successful
+Connection to 35.81.201.30 on port 29042 successful
+Connection to 35.81.201.30 on port 29080 successful
+Connection to 44.231.196.220 on port 29080 successful
+Connection to 44.231.196.220 on port 29042 successful
+Connection to 44.237.250.38 on port 29042 successful
+Connection to 44.237.250.38 on port 29080 successful
+====
+All connections successful
+==========
+Latency Test:
+====
+Latency to 44.226.38.103 is 32.68 ms
+Latency to 52.88.122.199 is 31.26 ms
+Latency to 44.237.250.38 is 31.25 ms
+Latency to 35.161.87.148 is 33.87 ms
+Latency to 44.230.66.97 is 33.52 ms
+Latency to 35.166.202.200 is 34.47 ms
+Latency to 35.81.201.30 is 34.11 ms
+Latency to 44.231.196.220 is 34.75 ms
+Latency to 52.11.79.207 is 36.52 ms
+====
+Average latency to contact points is 33.61 ms
+==========
+Testing authentication
+Request read latency: 0.83 ms
+Authentication successful
+==========
