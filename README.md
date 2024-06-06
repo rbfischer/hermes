@@ -11,10 +11,10 @@ Hermes is a Python script designed to test connectivity to Astra databases. It p
 ## Setup
 
 1. Clone the repository to your local machine.
-   - ```bash git clone https://github.com/rbfischer/hermes.git ```
+   - ```git clone https://github.com/rbfischer/hermes.git ```
 2. Navigate to the directory containing the `hermes.py` script.
 3. Install the required Python packages by running the following command in your terminal:
-   - ```bash pip install -r requirements.txt ```
+   - ```pip install -r requirements.txt ```
 
 ## Usage
 Before running the script, you need to set the ASTRA_DB_SECURE_BUNDLE_PATH and ASTRA_DB_APPLICATION_TOKEN environment variables. These variables should point to the path of your secure connect bundle and the application token respectively. The application token can be found in the token.json file.
@@ -101,5 +101,5 @@ Authentication successful
 
 ## FAQ
 - Why Hermes?
-  - Well, if I have to explain the joke: since organizations related to the Cassandra Project like using Greek mythos names like Cassandra, Medusa etc, I wanted to keep the name in theme. This tool tests to see if messages can reach Astra, which is another greek mythos-y name.
+  - Well, if I have to explain the joke: since organizations related to the Cassandra Project like using Greek mythos names like Cassandra, Medusa etc, I wanted to keep the name in theme. This tool tests to see if messages can reach Astra.
   - Also, I'm playing Hades 2.
