@@ -161,8 +161,8 @@ def testLatency(records, interval, count):
         start_time = datetime.datetime.now()
         try:
             sock.connect((i.to_text(), 29042))
-            sock.close()
             end_time = datetime.datetime.now()
+            sock.close()
             return i, ((end_time - start_time).total_seconds() * 1000)
         except:
             return i, 9999
